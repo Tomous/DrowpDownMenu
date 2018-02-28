@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6069F2E32046B1D600DB8451 /* DCDropDownSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F2E22046B1D600DB8451 /* DCDropDownSecondView.m */; };
+		6069F2E82046B23600DB8451 /* im_bt_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6069F2E42046B23500DB8451 /* im_bt_n@2x.png */; };
+		6069F2E92046B23600DB8451 /* im_bt_p@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6069F2E52046B23500DB8451 /* im_bt_p@3x.png */; };
+		6069F2EA2046B23600DB8451 /* im_bt_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6069F2E62046B23500DB8451 /* im_bt_n@3x.png */; };
+		6069F2EB2046B23600DB8451 /* im_bt_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6069F2E72046B23500DB8451 /* im_bt_p@2x.png */; };
+		6069F2FC2046C44000DB8451 /* DCCollectionReusable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F2FB2046C44000DB8451 /* DCCollectionReusable.m */; };
+		6069F2FF2046C4A900DB8451 /* DCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F2FE2046C4A900DB8451 /* DCCollectionViewCell.m */; };
+		6069F3022046C54B00DB8451 /* DCIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6069F3012046C54B00DB8451 /* DCIndexPath.m */; };
 		60AF3F282046AB96002E3DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F272046AB96002E3DB0 /* AppDelegate.m */; };
 		60AF3F2B2046AB96002E3DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F2A2046AB96002E3DB0 /* ViewController.m */; };
 		60AF3F2E2046AB96002E3DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AF3F2C2046AB96002E3DB0 /* Main.storyboard */; };
@@ -15,6 +23,10 @@
 		60AF3F362046AB96002E3DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F352046AB96002E3DB0 /* main.m */; };
 		60AF3F402046AB97002E3DB0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F3F2046AB97002E3DB0 /* ______Tests.m */; };
 		60AF3F4B2046AB97002E3DB0 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F4A2046AB97002E3DB0 /* ______UITests.m */; };
+		60AF3F5C2046AD1D002E3DB0 /* DCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F5B2046AD1D002E3DB0 /* DCFirstViewController.m */; };
+		60AF3F5F2046AD27002E3DB0 /* DCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F5E2046AD27002E3DB0 /* DCSecondViewController.m */; };
+		60AF3F622046AE30002E3DB0 /* DCDropDownFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F612046AE30002E3DB0 /* DCDropDownFirstView.m */; };
+		60AF3F642046AEF2002E3DB0 /* ico_make.png in Resources */ = {isa = PBXBuildFile; fileRef = 60AF3F632046AEF2002E3DB0 /* ico_make.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6069F2E12046B1D600DB8451 /* DCDropDownSecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDropDownSecondView.h; sourceTree = "<group>"; };
+		6069F2E22046B1D600DB8451 /* DCDropDownSecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDropDownSecondView.m; sourceTree = "<group>"; };
+		6069F2E42046B23500DB8451 /* im_bt_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "im_bt_n@2x.png"; sourceTree = "<group>"; };
+		6069F2E52046B23500DB8451 /* im_bt_p@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "im_bt_p@3x.png"; sourceTree = "<group>"; };
+		6069F2E62046B23500DB8451 /* im_bt_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "im_bt_n@3x.png"; sourceTree = "<group>"; };
+		6069F2E72046B23500DB8451 /* im_bt_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "im_bt_p@2x.png"; sourceTree = "<group>"; };
+		6069F2F62046B7D800DB8451 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6069F2FA2046C44000DB8451 /* DCCollectionReusable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCollectionReusable.h; sourceTree = "<group>"; };
+		6069F2FB2046C44000DB8451 /* DCCollectionReusable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCollectionReusable.m; sourceTree = "<group>"; };
+		6069F2FD2046C4A900DB8451 /* DCCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCCollectionViewCell.h; sourceTree = "<group>"; };
+		6069F2FE2046C4A900DB8451 /* DCCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCCollectionViewCell.m; sourceTree = "<group>"; };
+		6069F3002046C54B00DB8451 /* DCIndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCIndexPath.h; sourceTree = "<group>"; };
+		6069F3012046C54B00DB8451 /* DCIndexPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCIndexPath.m; sourceTree = "<group>"; };
 		60AF3F232046AB96002E3DB0 /* 下拉选择菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "下拉选择菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AF3F262046AB96002E3DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60AF3F272046AB96002E3DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +76,13 @@
 		60AF3F462046AB97002E3DB0 /* 下拉选择菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉选择菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AF3F4A2046AB97002E3DB0 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		60AF3F4C2046AB97002E3DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AF3F5A2046AD1D002E3DB0 /* DCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFirstViewController.h; sourceTree = "<group>"; };
+		60AF3F5B2046AD1D002E3DB0 /* DCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFirstViewController.m; sourceTree = "<group>"; };
+		60AF3F5D2046AD27002E3DB0 /* DCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSecondViewController.h; sourceTree = "<group>"; };
+		60AF3F5E2046AD27002E3DB0 /* DCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSecondViewController.m; sourceTree = "<group>"; };
+		60AF3F602046AE30002E3DB0 /* DCDropDownFirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCDropDownFirstView.h; sourceTree = "<group>"; };
+		60AF3F612046AE30002E3DB0 /* DCDropDownFirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCDropDownFirstView.m; sourceTree = "<group>"; };
+		60AF3F632046AEF2002E3DB0 /* ico_make.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_make.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +110,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6069F2EF2046B56E00DB8451 /* BaseTool */ = {
+			isa = PBXGroup;
+			children = (
+				6069F3002046C54B00DB8451 /* DCIndexPath.h */,
+				6069F3012046C54B00DB8451 /* DCIndexPath.m */,
+				6069F2FD2046C4A900DB8451 /* DCCollectionViewCell.h */,
+				6069F2FE2046C4A900DB8451 /* DCCollectionViewCell.m */,
+			);
+			name = BaseTool;
+			path = "下拉选择菜单/BaseTool";
+			sourceTree = SOURCE_ROOT;
+		};
 		60AF3F1A2046AB96002E3DB0 = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +149,15 @@
 				60AF3F272046AB96002E3DB0 /* AppDelegate.m */,
 				60AF3F292046AB96002E3DB0 /* ViewController.h */,
 				60AF3F2A2046AB96002E3DB0 /* ViewController.m */,
+				6069F2EF2046B56E00DB8451 /* BaseTool */,
+				60AF3F582046AC79002E3DB0 /* FirstVC */,
+				60AF3F592046AC79002E3DB0 /* SecondVC */,
 				60AF3F2C2046AB96002E3DB0 /* Main.storyboard */,
 				60AF3F2F2046AB96002E3DB0 /* Assets.xcassets */,
 				60AF3F312046AB96002E3DB0 /* LaunchScreen.storyboard */,
 				60AF3F342046AB96002E3DB0 /* Info.plist */,
 				60AF3F352046AB96002E3DB0 /* main.m */,
+				6069F2F62046B7D800DB8451 /* PrefixHeader.pch */,
 			);
 			path = "下拉选择菜单";
 			sourceTree = "<group>";
@@ -130,6 +178,35 @@
 				60AF3F4C2046AB97002E3DB0 /* Info.plist */,
 			);
 			path = "下拉选择菜单UITests";
+			sourceTree = "<group>";
+		};
+		60AF3F582046AC79002E3DB0 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				60AF3F5A2046AD1D002E3DB0 /* DCFirstViewController.h */,
+				60AF3F5B2046AD1D002E3DB0 /* DCFirstViewController.m */,
+				60AF3F602046AE30002E3DB0 /* DCDropDownFirstView.h */,
+				60AF3F612046AE30002E3DB0 /* DCDropDownFirstView.m */,
+				60AF3F632046AEF2002E3DB0 /* ico_make.png */,
+			);
+			path = FirstVC;
+			sourceTree = "<group>";
+		};
+		60AF3F592046AC79002E3DB0 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				60AF3F5D2046AD27002E3DB0 /* DCSecondViewController.h */,
+				60AF3F5E2046AD27002E3DB0 /* DCSecondViewController.m */,
+				6069F2E12046B1D600DB8451 /* DCDropDownSecondView.h */,
+				6069F2E22046B1D600DB8451 /* DCDropDownSecondView.m */,
+				6069F2FA2046C44000DB8451 /* DCCollectionReusable.h */,
+				6069F2FB2046C44000DB8451 /* DCCollectionReusable.m */,
+				6069F2E42046B23500DB8451 /* im_bt_n@2x.png */,
+				6069F2E62046B23500DB8451 /* im_bt_n@3x.png */,
+				6069F2E72046B23500DB8451 /* im_bt_p@2x.png */,
+				6069F2E52046B23500DB8451 /* im_bt_p@3x.png */,
+			);
+			path = SecondVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				60AF3F332046AB96002E3DB0 /* LaunchScreen.storyboard in Resources */,
+				6069F2EA2046B23600DB8451 /* im_bt_n@3x.png in Resources */,
+				6069F2E82046B23600DB8451 /* im_bt_n@2x.png in Resources */,
+				6069F2E92046B23600DB8451 /* im_bt_p@3x.png in Resources */,
 				60AF3F302046AB96002E3DB0 /* Assets.xcassets in Resources */,
+				6069F2EB2046B23600DB8451 /* im_bt_p@2x.png in Resources */,
 				60AF3F2E2046AB96002E3DB0 /* Main.storyboard in Resources */,
+				60AF3F642046AEF2002E3DB0 /* ico_make.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AF3F5C2046AD1D002E3DB0 /* DCFirstViewController.m in Sources */,
+				60AF3F5F2046AD27002E3DB0 /* DCSecondViewController.m in Sources */,
+				6069F2FC2046C44000DB8451 /* DCCollectionReusable.m in Sources */,
 				60AF3F2B2046AB96002E3DB0 /* ViewController.m in Sources */,
+				60AF3F622046AE30002E3DB0 /* DCDropDownFirstView.m in Sources */,
 				60AF3F362046AB96002E3DB0 /* main.m in Sources */,
 				60AF3F282046AB96002E3DB0 /* AppDelegate.m in Sources */,
+				6069F2E32046B1D600DB8451 /* DCDropDownSecondView.m in Sources */,
+				6069F2FF2046C4A900DB8451 /* DCCollectionViewCell.m in Sources */,
+				6069F3022046C54B00DB8451 /* DCIndexPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/下拉选择菜单/PrefixHeader.pch";
 				INFOPLIST_FILE = "下拉选择菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulearning.cn.------";
@@ -446,6 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/下拉选择菜单/PrefixHeader.pch";
 				INFOPLIST_FILE = "下拉选择菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulearning.cn.------";

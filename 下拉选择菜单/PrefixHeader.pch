@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  下拉选择菜单
+//
+//  Created by wenhua on 2018/2/28.
+//  Copyright © 2018年 wenhua. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define Boundary 9
+#define MenuTitleFontSize 16
+#define CellButtonFontSize 15.0
+#define CountLabelFontSize 14.0
+#define VerticalBoundary 6
+#define NumOfRows 3
+#define HeaderViewWidth 100
+#define HeaderViewHeight 40
+#define CleanButtonWidth 100
+#define CleanButtonHeight 40
+#define CollectionCellToBottom 48
+#define CollectionViewCellHeight 37
+#define MaxLine (([[UIScreen mainScreen] bounds].size.height-64-40-self.frame.size.height)/43-2)
+//黑色背景 35
+
+#define BackgroundColor [UIColor colorWithRed:35.0/255 green:29.0/255 blue:29.0/255 alpha:0.8]
+#define CleanButtonColor [UIColor colorWithRed:193.0/255 green:193.0/255 blue:193.0/255 alpha:1.0]
+
+#define OKButtonColor [UIColor colorWithRed:255.0/255 green:205.0/255 blue:46.0/255 alpha:1.0]
+#define ButtonFontColor [UIColor colorWithRed:17.0/255 green:17.0/255 blue:17.0/255 alpha:1.0]
+#define FontColor [UIColor colorWithRed:138.0/255 green:138.0/255 blue:138.0/255 alpha:1.0]
+// menu 的背景色
+#define BackColor [UIColor colorWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:1.0]
+// 选中颜色加深
+#define SelectColor [UIColor colorWithRed:255.0f/255.0f green:255.0f/255.0f blue:255.0f/255.0f alpha:1.0]
+#define SeparatorColor [UIColor colorWithRed:192.0f/255.0f green:192.0f/255.0f blue:192.0f/255.0f alpha:1.0]
+#define TextColor [UIColor colorWithRed:83.f/255.0f green:83.f/255.0f blue:83.f/255.0f alpha:1.0f]
+
+#define IndicatorColor [UIColor colorWithRed:175.0f/255.0f green:175.0f/255.0f blue:175.0f/255.0f alpha:1]
+#define  IndicatorSelectedColor [UIColor colorWithRed:255.0/255 green:205.0/255 blue:46.0/255 alpha:1.0]
+
+
+#define HeaderViewWidth 100
+#define HeaderViewHeight 40
+#endif /* PrefixHeader_pch */
